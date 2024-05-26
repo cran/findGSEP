@@ -1,0 +1,33 @@
+exportPattern("^[[:alpha:]]+")
+export(findGSEP)
+importFrom("grDevices", "dev.off", "grey", "pdf", "png", "rainbow")
+  importFrom("graphics", "abline", "axis", "barplot", "legend", "lines",
+             "par", "polygon", "text", "title")
+  importFrom("stats", "approx", "dnorm", "na.omit", "optim", "sd")
+  importFrom("utils", "read.table", "write.csv", "write.table")
+
+importFrom("ggplot2", "ggplot", "geom_point", "geom_line", "labs",
+           "theme", "theme_classic", "geom_histogram", "geom_density",
+           "facet_wrap", "scale_fill_brewer", "scale_color_brewer",
+           "element_text", "element_blank", "coord_cartesian")
+
+importFrom("scales", "alpha")
+importFrom("dplyr", "filter", "mutate", "select", "summarise")
+importFrom(RColorBrewer, brewer.pal)
+importFrom(pracma, findpeaks)
+export(error_minimize)
+export(error_minimize2)
+export(error_minimize3)
+export(initial_count_recover)
+export(kmer_count_modify)
+export(findGSE_sp)
+export(error_minimize_raw)
+export(error_minimize2_raw)
+export(error_minimize3_raw)
+export(initial_count_recover_raw)
+export(kmer_count_modify_raw)
+export(findGSE_raw)
+export(filter_peaks_raw)
+export(filter_peaks)
+export(get_het_pos)
+export(initialize_start_time)
